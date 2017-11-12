@@ -1,16 +1,15 @@
 import React from 'react'
 import TitleCard from './TitleCard'
-import { Grid, Container  } from 'semantic-ui-react'
-
-
+import { Grid  } from 'semantic-ui-react'
 
 class Titles extends React.Component{
 
     render(){    
+        let titles = this.props.titles
         return(
             <div>      
                 <Grid celled  >
-                {this.props.titles.map(content=>{
+                {titles.map(content=>{
                     return(<TitleCard key={content.id} content={content}/> )    
                 })}
                 </Grid>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css'
 import Titles from './components/Titles'
 import axios from 'axios'
-import { Menu, Input  } from 'semantic-ui-react'
+import { Menu, Input,Loader  } from 'semantic-ui-react'
 import Fuse from 'fuse.js'
 
 class App extends Component {
@@ -30,7 +30,7 @@ class App extends Component {
     if(this.state.loaded){
       return <Titles titles={this.state.titles}/>
     }
-    return <div/>
+    return <Loader/>
   }
   onChange(event){
     let options = {
