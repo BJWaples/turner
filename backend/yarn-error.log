@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add .
+
+PATH: 
+  C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\Bynee\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Bynee\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\Bynee\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Bynee\AppData\Roaming\npm;C:\Users\Bynee\AppData\Local\Yarn\bin;C:\Users\Bynee\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.1.0
+
+Node version: 
+  8.4.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "body-parser": "~1.18.2",
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.9",
+      "express": "~4.15.5",
+      "morgan": "~1.9.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: C:\Users\Bynee\Documents\turner-interview\backend\package.json: Unexpected token } in JSON at position 270
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:764:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:92:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:103:13
+      at <anonymous>
